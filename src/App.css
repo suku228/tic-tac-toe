@@ -2,6 +2,23 @@
   text-align: center;
 }
 
+.dinline{
+  font-size: 0;
+}
+
+.cell{
+  border: 1px solid white;
+  color: red;
+  display: inline-block;
+  font-size: 90px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
